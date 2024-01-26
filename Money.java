@@ -18,7 +18,7 @@ public class Money {
                 money = money.substring(1); // update money to get rid of $
                 System.out.println("You entered $" + money);
             } else {
-                System.out.println("Invalid format. Try ond of the following formats: XX.XX or $XX.XX"); // doesn't allow improper format ex. 4.$50 or letters
+                System.out.println("Invalid format. Try one of the following formats: XX.XX or $XX.XX"); // doesn't allow improper format ex. 4.$50 or letters
                 return; // stop executing
             }
         //}
